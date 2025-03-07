@@ -50,11 +50,11 @@ function sendEmailToAll() {
   //google takvime etkinlik ekleme kısmı
   function addEventToCalendar(email) {
     var calendar = CalendarApp.getDefaultCalendar(); // varsayılan google takvimi kullan
-    var eventTitle = "İnönü IEEE & Ford Otosan - Dijital Dönüşüm Etkinliği";
-    var eventDescription = "Etkinlikte sektör ve kariyer hakkında aklınızdaki tüm sorulara yanıt bulabileceğiniz keyifli bir sohbet sizi bekliyor.";
-    var eventLocation = "Online - Microsoft Teams";
-    var eventStartTime = new Date("March 8, 2025 15:00:00"); // etkinlik başlangıi tarihi ve saati
-    var eventEndTime = new Date("March 8, 2025 17:00:00"); // etkinlik bitiş tarihi ve saati
+    var eventTitle = "Örnek Etkinlik başlığı";
+    var eventDescription = "Etkinlik detayları";
+    var eventLocation = "Yer";
+    var eventStartTime = new Date("ör: March 8, 2025 15:00:00"); // etkinlik başlangıi tarihi ve saati
+    var eventEndTime = new Date("ör: March 8, 2025 17:00:00"); // etkinlik bitiş tarihi ve saati
   
     var event = calendar.createEvent(eventTitle, eventStartTime, eventEndTime, {
       location: eventLocation,
